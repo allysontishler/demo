@@ -1,38 +1,120 @@
-.App {
+/* App.css */
+body {
+  background: #FFFDF9;
+}
+
+.container {
+  display: flex;
+  align-items: center; /* Center items horizontally */
+}
+
+.left-section {
+  width: 100%; /* Take up full width */
+  margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Take up full width */
+}
+
+.logo {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 4rem;
+  padding-left: 40px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  display: flex;
+  font-size: 1.3em;
+}
+
+.navigation li {
+  margin-right: 100px; /* Adjust spacing */
+}
+
+.navigation a {
+  color: black;
+  font-family: 'Cardo', sans-serif;
+  text-decoration: none;
+}
+
+.main-content {
+  text-align: left;
+  margin-left: 45px;
+  max-width: 600px;
+  font-size: 1.3em;
+}
+
+.cta-container {
   text-align: center;
+  max-width: 300px;
+  color: #A68A64;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cta-button {
+  border: 2px solid black;
+  background-color: white;
+  color: grey;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.review-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #333D29;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.review {
+  width: 150px;
+  height: 250px;
+  border: 1px solid black;
+  padding: 20px;
+  padding-top: 0;
+  text-align: center;
+  font-size: 0.8em;
+  font: 'Cardo', sans-serif;
+}
+
+.quotes {
+  width: 37%; 
+  text-align: left; 
+  margin-right: 150px;
+  font-size: 2.5em;
+  margin-top: -600px;
+}
+
+.quote-green {
+  color: #333D29;
+  font-weight: bold;
+  margin-bottom: 40px;
+  box-shadow: 5px 5px 10px rgba(51, 61, 41, 0.3);
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.quote-brown {
+  color: #A68A64;
+  font-weight: bold;
+  box-shadow: 5px 5px 10px rgba(166, 138, 100, 0.3);
+  padding: 20px;
+  border-radius: 50px;
+}
+
+
+.right-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-end; 
+  align-items: flex-end; 
+  flex: 1; 
+  margin-left: 100px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
