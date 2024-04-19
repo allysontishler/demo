@@ -5,19 +5,19 @@ body {
 
 .container {
   display: flex;
-  align-items: center; /* Center items horizontally */
+  align-items: center; 
 }
 
 .left-section {
-  width: 100%; /* Take up full width */
-  margin-bottom: 20px; /* Add margin at the bottom */
+  width: 100%; 
+  margin-bottom: 20px; 
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%; /* Take up full width */
+  width: 100%; 
 }
 
 .logo {
@@ -33,7 +33,7 @@ body {
 }
 
 .navigation li {
-  margin-right: 100px; /* Adjust spacing */
+  margin-right: 100px; 
 }
 
 .navigation a {
